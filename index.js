@@ -1,4 +1,3 @@
-// comment for CI testing
 const attack = require('./attack');
 
 console.log(
