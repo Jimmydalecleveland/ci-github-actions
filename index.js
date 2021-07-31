@@ -1,2 +1,2 @@
-const attack = require('./attack')
-console.log(attack('Smelly Ogre', 23))
+const attack = require('./attack');
+console.log(attack('Smelly Ogre', 23));
