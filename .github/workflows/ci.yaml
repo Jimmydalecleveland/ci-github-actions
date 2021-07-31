@@ -1,15 +1,14 @@
-name: CI
+name: CD & CI Practice
 on: [push]
 jobs:
   eslint:
-    name: Lint code base
+    name: Code Linting
     runs-on: ubuntu-latest
-    
+
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
-        
-      - name: Install packages
+      - name: Install Packages
         run: npm i
-      - name: Run ESlint
+      - name: Run Eslint
         run: npm run lint
